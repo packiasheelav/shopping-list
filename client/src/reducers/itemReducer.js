@@ -3,15 +3,10 @@ import {
     ADD_ITEM,
     DELETE_ITEM,
     ITEMS_LOADING
-    
   } from '../actions/types';
-  import uuid from 'uuid';
   
   const initialState = {
-    items: [
-       
-
-    ],
+    items: [],
     loading: false
   };
   
